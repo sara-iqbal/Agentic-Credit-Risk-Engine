@@ -11,32 +11,32 @@ End-to-end AI credit scoring system with Streamlit and Llama-3
 
 ---
 
-## 📖 Executive Summary
+##  Executive Summary
 This project builds a regulatory-grade **Credit Risk Scoring System** compliant with **Basel III** standards. Unlike "black box" machine learning models, this engine uses **Weight of Evidence (WoE)** transformation and **Logistic Regression** to ensure 100% interpretability—a critical requirement for financial regulation.
 
 The system is operationalized via a full-stack **Streamlit Banking Dashboard** that goes beyond simple prediction. It integrates **Agentic AI (Llama-3)** to automate customer communication, performs real-time **IFRS 9 Stress Testing**, and includes an **MLOps Drift Monitor** to ensure model reliability in volatile economic conditions.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-### 1. 📝 Transparent Scoring Engine (Basel III)
+### 1. Transparent Scoring Engine (Basel III)
 * **Algorithm:** Logistic Regression calibrated with Points-to-Double-the-Odds (PDO).
 * **Feature Engineering:** Implemented WoE (Weight of Evidence) and IV (Information Value) binning to handle non-linear data.
 * **Explainability:** Integrated **SHAP waterfall charts** to explain every point of a customer's score (e.g., *"Your score dropped 40 points due to critical credit history"*).
 
-### 2. 🤖 Agentic AI Integration ("Human-in-the-Loop")
+### 2. Agentic AI Integration ("Human-in-the-Loop")
 * **Powered by:** Llama-3-70b (via Groq API).
 * **Role:** Acts as a "Virtual Underwriter."
 * **Capabilities:**
     * Drafts **empathetic decision emails** (Approvals/Rejections) automatically.
     * Generates **technical validation reports** explaining the mathematical logic of the score to internal auditors.
 
-### 3. 🌪️ Macro-Economic Stress Testing (IFRS 9)
+### 3. Macro-Economic Stress Testing (IFRS 9)
 * Simulates economic recession scenarios by artificially shifting Probability of Default (PD) distributions.
 * Calculates **Projected Capital Loss** in real-time to assess the bank's Capital Adequacy.
 
-### 4. 🛠️ MLOps & Model Monitoring
+### 4. MLOps & Model Monitoring
 * Simulates a production environment to track the **Population Stability Index (PSI)**.
 * Automatically flags **Concept Drift** (e.g., if a sudden influx of bad applicants occurs) and triggers retraining alerts.
 
@@ -55,7 +55,7 @@ The system is operationalized via a full-stack **Streamlit Banking Dashboard** t
 
 ---
 
-## 📊 Business Impact & ROI
+##  Business Impact & ROI
 This project solves three critical banking challenges:
 
 1.  **Regulatory Compliance:** By using a "White Box" model (Logistic Regression), the system meets strict explainability laws (e.g., Fair Lending Act) that Neural Networks often fail.
@@ -64,23 +64,3 @@ This project solves three critical banking challenges:
 
 ---
 
-## 📸 Screenshots
-
-*(Add your screenshots here! Drag and drop images into this issue or folder)*
-
-| **Loan Decision Interface** | **AI Agent Explanation** |
-|:---:|:---:|
-| *[Place Screenshot of Tab 1 Here]* | *[Place Screenshot of Tab 3 Here]* |
-
-| **Portfolio Stress Testing** | **MLOps Drift Monitor** |
-|:---:|:---:|
-| *[Place Screenshot of Tab 2 Here]* | *[Place Screenshot of Tab 4 Here]* |
-
----
-
-## 💻 How to Run Locally
-
-**1. Clone the Repository**
-```bash
-git clone [https://github.com/YourUsername/Agentic-Credit-Risk-Engine.git](https://github.com/YourUsername/Agentic-Credit-Risk-Engine.git)
-cd Agentic-Credit-Risk-Engine
