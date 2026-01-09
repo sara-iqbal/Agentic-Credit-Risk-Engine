@@ -15,7 +15,7 @@ This project builds a regulatory-grade **Credit Risk Scoring System** compliant 
 The system is operationalized via a full-stack **Streamlit Banking Dashboard** that goes beyond simple prediction. It integrates **Agentic AI (Llama-3)** to automate customer communication, performs real-time **IFRS 9 Stress Testing**, and includes an **MLOps Drift Monitor** to ensure model reliability in volatile economic conditions.
 
 ---
-### 📊Data Source
+### Data Source
 This project utilizes the **German Credit Dataset** provided by the UCI Machine Learning Repository. It contains data on 1,000 loan applicants with 20 distinct features (credit history, checking account status, loan purpose, etc.).
 * **Dataset Link:** [UCI German Credit Data](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))
 
@@ -43,7 +43,7 @@ This project utilizes the **German Credit Dataset** provided by the UCI Machine 
 
 ---
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 | Component | Tech Stack | Description |
 | :--- | :--- | :--- |
