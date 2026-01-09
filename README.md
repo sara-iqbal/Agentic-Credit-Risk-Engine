@@ -1,7 +1,5 @@
-# Agentic-Credit-Risk-Engine
-End-to-end AI credit scoring system with Streamlit and Llama-3
 
-# 🏦 End-to-End Agentic Credit Risk Engine
+#  End-to-End Agentic Credit Risk Engine
 ### *Bridging Traditional Finance (TradFi) with Generative AI*
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
