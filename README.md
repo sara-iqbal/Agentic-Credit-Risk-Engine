@@ -10,7 +10,7 @@
 ---
 
 ##  Executive Summary
-This project builds a regulatory-grade **Credit Risk Scoring System** compliant with **Basel III** standards. Unlike "black box" machine learning models, this engine uses **Weight of Evidence (WoE)** transformation and **Logistic Regression** to ensure 100% interpretability—a critical requirement for financial regulation.
+This project builds a regulatory-grade **Credit Risk Scoring System** compliant with **Basel III** standards. Unlike "black box" machine learning models, this engine uses **Weight of Evidence (WoE)** transformation and **Logistic Regression** to ensure 100% interpretability a critical requirement for financial regulation.
 
 The system is operationalized via a full-stack **Streamlit Banking Dashboard** that goes beyond simple prediction. It integrates **Agentic AI (Llama-3)** to automate customer communication, performs real-time **IFRS 9 Stress Testing**, and includes an **MLOps Drift Monitor** to ensure model reliability in volatile economic conditions.
 
